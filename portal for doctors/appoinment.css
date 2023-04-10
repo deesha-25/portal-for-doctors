@@ -1,0 +1,23 @@
+body
+{
+    background-image: url(app.png.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+    margin-left: 80px;
+    margin-bottom: 100px;
+    margin-right: 80;
+    font-family: 'Times New Roman', 'Times, serif';
+}
+h1
+{
+ color:black;
+ font:bold;  
+ align-items: center;
+}
+form
+{
+    color:black;
+    font:italic;
+}
+

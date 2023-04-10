@@ -1,0 +1,137 @@
+.body
+{
+    margin:0px;
+    padding:0px;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+.background
+{
+    width: 100%;
+    height: 100%;
+    background-image:url(img8.jpg);
+    background-repeat: no-repeat;
+    background-size: 1500px;
+    background-position:center;
+    
+   
+    
+}
+.navbar
+{
+    width: 100%;
+    margin:auto;
+    padding: 40px 0;
+    height: 10%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    font-style:bold;
+    background-color:skyblue;
+    box-sizing: border-box;
+}
+.logo{
+    width: 80px; height: 80px;
+    margin-left: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    cursor:pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display:inline-flex;
+    margin:0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration:none;
+    color: #000;
+    text-transform: uppercase;
+
+}
+.navbar ul li::after{
+    content:"";
+    height:3px;
+    width:0;
+    background:#009688;
+    position:absolute;
+    left:0;
+    bottom:-10px; 
+    transition:0.5s;
+}
+.navbar ul li:hover::after{
+    width:100%;
+}
+.content{
+    width:1200px;
+    height:auto;
+    margin:auto;
+    color:white;
+    position: relative;
+}
+.content h2{
+    padding-left: 20px;
+    padding-bottom: 50px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    text-align: center;
+    font-size: bold;
+    margin: 20%;
+}    
+.content h1{
+    font-family:Arial;
+    font-size: 50px;
+    padding-left: 30px;
+    letter-spacing: 2px;
+    text-align: center;
+
+}
+.about{
+    width: 100%;
+    padding:100px 0px;
+    background-color: #fff;
+}
+.about img{
+    height: auto;
+    width: 430px;
+}
+.about text{
+    width: 550px;
+ 
+}
+.main{
+    width:1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    color:black;
+    font-size: 75px;
+    margin-bottom: 20px;
+    padding-left: 25px;
+}
+.about-text p{
+    color: #000;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    padding-left: 25px;    
+}
+.contact-info{
+    width:100%;
+    height: 290px;
+    background:black;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: skyblue;
+    font-size: 50px;
+    text-transform: capitalize;
+
+}
